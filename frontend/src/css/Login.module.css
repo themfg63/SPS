@@ -1,0 +1,65 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2{
+    color: grey;
+}
+
+.card{
+    width: 300px;
+    box-shadow: 2px 2px 3px 3px #F3E5F5;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card p{
+    color: #64B5F6;
+}
+
+.cardHeader{
+    text-align: center;
+}
+
+.emailDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.emailDetail input{
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.emailDetail label{
+    font-weight: bold;
+}
+
+.btnContainer{
+    margin-top: 10px;
+}
+
+.loginBtn{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.bottomLinks{
+    text-decoration: none;
+    color: #64B5F6;
+}
