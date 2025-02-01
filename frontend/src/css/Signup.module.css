@@ -1,0 +1,80 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2, p{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.card{
+    width: 400px;
+    box-shadow: 0px 3px 3px 3px #E8EAF6;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.nameRow{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 15px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #B39DDB;
+}
+
+select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #B39DDB;
+}
+
+.col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.mobileNumber{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.signUpContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+.btn{
+    border: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+

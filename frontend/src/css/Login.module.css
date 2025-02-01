@@ -7,7 +7,7 @@
 }
 
 h2{
-    color: grey;
+    color: blue;
 }
 
 .card{
@@ -25,18 +25,18 @@ h2{
     text-align: center;
 }
 
-.emailDetail{
+.emailDetails{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.emailDetail input{
+.emailDetails input{
     padding: 5px;
     border-radius: 3px;
 }
 
-.emailDetail label{
+.emailDetails label{
     font-weight: bold;
 }
 
@@ -50,6 +50,7 @@ h2{
     font-weight: bold;
     padding: 5px;
     border-radius: 5px;
+    width: 300px;
 }
 
 .linkContainer{
@@ -60,6 +61,6 @@ h2{
 }
 
 .bottomLinks{
-    text-decoration: none;
-    color: #64B5F6;
+    text-decoration: none ;
+    color: blue;
 }
